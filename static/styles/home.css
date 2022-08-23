@@ -1,0 +1,136 @@
+
+ .background-home{
+  /* background-size: 1600px; */
+  min-height: 100vh;
+  background-image: url('background.webp');
+  /* z-index: -555;  */
+  position: relative;display: flex;
+  justify-content: center; align-items: center;
+} 
+
+  .window{
+    width: 500px;
+    height: 300px;
+    /* border: solid 10px white; */
+  
+  }
+  .glass1{
+  
+    overflow: hidden;
+    width: 500px;
+    height: 150px;
+  border-bottom: solid 2px brown;
+  animation-name: window;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+  }
+  @keyframes window {
+  
+  0%{
+    background-color: #d2f8fe
+  
+  
+  }20%{
+    background-color: #68e9ff
+  
+  }30%{
+    background-color:#37e2ff
+  
+  
+  
+  }40%{
+    background-color: #008ba3
+  
+  }50%{
+    background-color: #006172
+  
+  }60%{
+    background-color: #003741
+  
+  }
+  100%{
+    background-color: #000d10
+  
+  }
+  
+  }
+  
+  .glass2{
+  
+    width: 500px;
+    height: 150px;
+  background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+  
+  
+  );
+  }
+  
+  .z1{
+  color: rgb(219, 203, 203);
+  /* font-size: 1rem; */
+  width: 170px;
+  height: auto;
+  font-family: cursive;
+  position: relative;
+  top:20px;
+  left:150px;
+  }
+  
+  .fa-moon{
+    font-size: 2rem;
+    color: yellow;
+    animation-name: moon;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+    top: 200px;
+    opacity: 0;
+  }
+  @keyframes moon {
+    0%{
+  transform: translateY(0px);
+    }
+  50%{
+  opacity: 0;
+  }
+  
+  
+    100%{
+  transform: translateY(-200px);
+  opacity: 1;
+    }
+  
+  }
+  
+  .fa-sun{
+  color: yellow;
+  position: relative;
+  left: 400px;
+  
+  opacity:1;
+  font-size: 3rem;
+  animation-name: sun;
+  
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+  }
+  @keyframes sun {
+    0%{
+  
+    transform: translateY(0px);
+    }
+  
+  
+    100%{
+      transform: translateY(200px);
+    opacity: 0;
+    }
+  
+  }
+
+  
